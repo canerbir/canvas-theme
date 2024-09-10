@@ -12,10 +12,14 @@ module.exports = {
 			padding: "15px",
 		},
 		extend: {
+			textUnderlineOffset: {
+				4: '4px',
+			},
 			fontFamily: {
 				open: ['Open sans', 'sans-serif'],
 				playfair: ['Playfair Display', 'serif'],
-				roboto: ['Roboto', 'sans-serif']
+				roboto: ['Roboto', 'sans-serif'],
+				source: ['Source Sans Pro', 'sans-serif']
 			},
 			backgroundImage: {
 				banner: "url('./assets/banner.svg')",
