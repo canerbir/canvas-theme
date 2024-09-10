@@ -19,3 +19,7 @@ body {
     --radius: 0.5rem;
   }
 }
+
+.active {
+  color: #1abc9c;
+}
