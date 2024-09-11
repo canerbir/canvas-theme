@@ -8,7 +8,7 @@ import { FaG, FaXTwitter } from "react-icons/fa6";
 
 const About = () => {
   return (
-    <section className="h-[1000px] mt-[1250px] lg:mt-[600px]" id="about">
+    <section className=" mt-[1250px] lg:mt-[600px] block" id="about">
       <div className="text-center flex flex-col items-center">
         <h1 className="text-[40px] font-roboto font-bold tracking-tight max-w-[700px] mx-auto mt-24">
           A digital web studio creating stunning & engaging online experiences

@@ -1,4 +1,20 @@
+import { Open_Sans, Playfair_Display, Roboto } from "next/font/google";
 import "./globals.css";
+
+const openSans = Open_Sans({
+  subsets: ["latin"],
+  weight: ["300", "400", "600", "700"],
+});
+
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["400", "700", "900"],
+});
+
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -8,7 +24,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body
+        className={`${openSans.className} ${playfairDisplay.className} ${roboto.className}`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

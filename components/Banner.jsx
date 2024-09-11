@@ -27,7 +27,7 @@ const Banner = () => {
               animate="show"
               viewport={{ once: false, amount: 0.7 }}
             >
-              <h1 className="text-6xl font-bold text-[#084678] mb-8">
+              <h1 className="text-6xl font-bold font-playfair text-[#084678] mb-8">
                 We Deliver Best Website <br /> For You.
               </h1>
             </motion.div>
@@ -63,7 +63,7 @@ const Banner = () => {
               <h5 className="font-roboto tracking-widest text-gray-400 mb-6">
                 PURPOSE
               </h5>
-              <h1 className="text-6xl font-bold text-[#084678] mb-8">
+              <h1 className="text-6xl font-playfair font-bold text-[#084678] mb-8">
                 Business
               </h1>
               <p className="font-roboto text-gray-500 font-thin leading-8 mb-16">
@@ -81,7 +81,9 @@ const Banner = () => {
               <h5 className="mt-20 lg:mt-0 font-roboto tracking-widest text-gray-400 mb-6">
                 PURPOSE
               </h5>
-              <h1 className="text-6xl font-bold mb-8">Personal</h1>
+              <h1 className="text-6xl font-playfair font-bold mb-8">
+                Personal
+              </h1>
               <p className="font-roboto text-gray-500 font-thin leading-8 mb-16">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 Voluptatum sunt, iure voluptatem repellat ab veniam facere iusto
