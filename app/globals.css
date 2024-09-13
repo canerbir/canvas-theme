@@ -22,3 +22,11 @@ body {
 .active {
   color: #1abc9c;
 }
+
+.swiper-pagination-bullet {
+  background-color: #1abc9c !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #1abc9c !important; /* Aktif bullet için */
+}

@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { FaChevronRight } from "react-icons/fa";
 import Image from "next/image";
 import { FaFacebookF, FaGithub } from "react-icons/fa";
-import { FaG, FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter } from "react-icons/fa6";
 
 const About = () => {
   return (
