@@ -20,12 +20,14 @@ const Blog = () => {
               src="/assets/blog1.jpg"
               width={294}
               height={220}
+              alt="blog1"
               className="hidden lg:flex"
             />
             <Image
               src="/assets/blog1.jpg"
               width={425}
               height={326}
+              alt="blog1"
               className="lg:hidden"
             />
             <div className="flex flex-col justify-center gap-4 lg:ml-5">
@@ -48,12 +50,14 @@ const Blog = () => {
               src="/assets/blog2.jpg"
               width={294}
               height={220}
+              alt="blog2"
               className="hidden lg:flex"
             />
             <Image
               src="/assets/blog2.jpg"
               width={425}
               height={326}
+              alt="blog2"
               className="lg:hidden"
             />
             <div className="flex flex-col justify-center gap-4 lg:ml-5">
@@ -78,12 +82,14 @@ const Blog = () => {
               src="/assets/blog3.jpg"
               width={294}
               height={220}
+              alt="blog3"
               className="hidden lg:flex"
             />
             <Image
               src="/assets/blog3.jpg"
               width={425}
               height={326}
+              alt="blog3"
               className="lg:hidden"
             />
             <div className="flex flex-col justify-center gap-4 lg:ml-5">
@@ -104,12 +110,14 @@ const Blog = () => {
               src="/assets/blog4.jpg"
               width={294}
               height={220}
+              alt="blog4"
               className="hidden lg:flex"
             />
             <Image
               src="/assets/blog4.jpg"
               width={425}
               height={326}
+              alt="blog4"
               className="lg:hidden"
             />
             <div className="flex flex-col justify-center gap-4 lg:ml-5">

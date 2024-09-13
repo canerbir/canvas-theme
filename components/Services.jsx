@@ -20,6 +20,7 @@ const Services = () => {
               quality={100}
               width={634.33}
               height={347.28}
+              alt="services"
               className="object-cover"
             />
           </div>
@@ -31,6 +32,7 @@ const Services = () => {
               quality={100}
               width={48}
               height={48}
+              alt="responsive"
             />
             <h3 className="mt-5">Responsive Framework</h3>
           </div>
@@ -40,6 +42,7 @@ const Services = () => {
               quality={100}
               width={48}
               height={48}
+              alt="chart"
             />
             <h3 className="mt-5">Beautifully Presented</h3>
           </div>
@@ -49,6 +52,7 @@ const Services = () => {
               quality={100}
               width={48}
               height={48}
+              alt="puzzle"
             />
             <h3 className="mt-5">Extensively Extendable</h3>
           </div>
@@ -58,6 +62,7 @@ const Services = () => {
               quality={100}
               width={83}
               height={48}
+              alt="gear"
             />
             <h3 className="mt-5">Powerfully Customizable</h3>
           </div>
@@ -67,6 +72,7 @@ const Services = () => {
               quality={100}
               width={48}
               height={48}
+              alt="react"
             />
             <h3 className="mt-5">Geniusly Transformable</h3>
           </div>
@@ -76,6 +82,7 @@ const Services = () => {
               quality={100}
               width={48}
               height={48}
+              alt="baloon"
             />
             <h3 className="mt-5">Industrial Support</h3>
           </div>
