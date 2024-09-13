@@ -9,6 +9,7 @@ import Services from "@/components/Services";
 import Swiper from "@/components/Swiper";
 import Blog from "@/components/Blog";
 import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Swiper />
       <Blog />
       <Contact />
+      <Footer />
     </ParallaxProvider>
   );
 }
