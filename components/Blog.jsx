@@ -150,34 +150,84 @@ const Blog = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper1.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper1.png"
+              alt="swiper1"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper2.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper2.png"
+              alt="swiper2"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper3.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper3.png"
+              alt="swiper3"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper4.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper4.png"
+              alt="swiper4"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper5.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper5.png"
+              alt="swiper5"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper6.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper6.png"
+              alt="swiper6"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper7.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper7.png"
+              alt="swiper7"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper8.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper8.png"
+              alt="swiper8"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper9.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper9.png"
+              alt="swiper9"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper10.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper10.png"
+              alt="swiper10"
+            />
           </SwiperSlide>
         </Swiper>
       </div>
@@ -194,34 +244,84 @@ const Blog = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper1.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper1.png"
+              alt="swiper1"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper2.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper2.png"
+              alt="swiper2"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper3.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper3.png"
+              alt="swiper3"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper4.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper4.png"
+              alt="swiper4"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper5.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper5.png"
+              alt="swiper5"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper6.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper6.png"
+              alt="swiper6"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper7.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper7.png"
+              alt="swiper7"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper8.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper8.png"
+              alt="swiper8"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper9.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper9.png"
+              alt="swiper9"
+            />
           </SwiperSlide>
           <SwiperSlide>
-            <Image height={111.98} width={149.33} src="/assets/swiper10.png" />
+            <Image
+              height={111.98}
+              width={149.33}
+              src="/assets/swiper10.png"
+              alt="swiper10"
+            />
           </SwiperSlide>
         </Swiper>
       </div>
