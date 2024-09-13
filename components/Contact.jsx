@@ -1,6 +1,6 @@
 "use client";
 
-const contact = () => {
+const Contact = () => {
   return (
     <div id="contact">
       <div className="bg-[#f8f9fa] flex">
@@ -68,8 +68,8 @@ const contact = () => {
           </div>
           <div>
             <textarea
-              name=""
-              id=""
+              name="message"
+              id="message"
               rows={10}
               placeholder="Your Message"
               className="outline-none placeholder:text-xl placeholder:font-light border-b focus:border-blue-600 w-full resize-none mb-10"
@@ -82,11 +82,11 @@ const contact = () => {
           send message
         </button>
         <span className="font-roboto font-normal text-sm mt-5 mb-32">
-          We'll do our best to get back to you within 6-8 working hours.
+          We&apos;ll do our best to get back to you within 6-8 working hours.
         </span>
       </div>
     </div>
   );
 };
 
-export default contact;
+export default Contact;

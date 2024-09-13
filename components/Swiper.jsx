@@ -18,6 +18,7 @@ const Swiperpage = () => {
           width={2000}
           height={1333}
           quality={100}
+          alt="swiper"
           className="object-cover absolute w-full h-full"
         />
         <Swiper
