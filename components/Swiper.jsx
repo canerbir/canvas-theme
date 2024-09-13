@@ -47,7 +47,7 @@ const Swiperpage = () => {
               Natus voluptatum enim quod necessitatibus quis expedita harum
               provident eos obcaecati id culpa corporis molestias.
             </p>
-            <h4 className="lg:text-xl">Collis Ta'eed</h4>
+            <h4 className="lg:text-xl">Collis Ta&apos;eed</h4>
             <small className="text-sm">Envato Inc.</small>
           </SwiperSlide>
           <SwiperSlide className="text-2xl text-center">
