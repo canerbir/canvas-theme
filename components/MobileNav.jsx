@@ -38,7 +38,7 @@ const MobileNav = () => {
         <CiMenuBurger className="text-[32px] text-accent" />
       </SheetTrigger>
       <SheetContent className="flex flex-col">
-        <nav className="font-light uppercase text-xs tracking-[3px] flex flex-col">
+        <nav className="font-light uppercase text-xs tracking-[3px] flex flex-col z-50">
           {links.map((link) => (
             <Link
               key={link.id}

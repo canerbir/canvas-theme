@@ -27,8 +27,8 @@ const Header = () => {
 
   return (
     <header
-      className={`top-0 sticky z-50 transition-all duration-300 ${
-        scrolling ? "bg-white" : "bg-[#f9f9f9]"
+      className={`top-0 sticky  transition-all duration-300 ${
+        scrolling ? "bg-white z-[9999]" : "bg-[#f9f9f9]"
       }`}
     >
       <div className="border-b">
@@ -43,7 +43,7 @@ const Header = () => {
               </a>
             </div>
             {/* links */}
-            <div className="mr-7 hidden lg:flex">
+            <div className="mr-7 hidden lg:flex z-50">
               <Nav />
             </div>
             {/* mobile nav */}

@@ -4,13 +4,14 @@ import { Link } from "react-scroll";
 import { fadeIn } from "@/app/variants";
 import { motion } from "framer-motion";
 import { BsArrowRight } from "react-icons/bs";
+import Image from "next/image";
 
 const Banner = () => {
   return (
-    <section id="home" className="h-[80vh] bg-[#f9f9f9] ">
+    <section id="home" className="h-[80vh] bg-[#f9f9f9]">
       <div className="relative h-full">
         <div className="container">
-          <div className="py-20 lg:ml-28">
+          <div className="py-20 lg:ml-28 z-50">
             <motion.div
               variants={fadeIn("up", 0.3)}
               initial="hidden"
@@ -55,6 +56,14 @@ const Banner = () => {
                 </button>
               </Link>
             </motion.div>
+          </div>
+          <div className="lg:right-0 absolute opacity-40 lg:opacity-100 lg:-top-20 lg:z-50">
+            <Image
+              src="/assets/developer.svg"
+              alt="developer"
+              height={700}
+              width={700}
+            />
           </div>
         </div>
         <div className="lg:absolute lg:bottom-0 lg:left-1/2 lg:transform lg:-translate-x-1/2 lg:translate-y-[300px] px-16 py-20 bg-white rounded-3xl shadow-2xl">
